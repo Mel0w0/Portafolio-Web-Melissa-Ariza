@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portafolio web de Mel, desarrolladora Frontend especializada en sitios modernos, responsivos y WordPress. Conoce mis proyectos y habilidades.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/vector.ico" type="image/x-icon">
+    <title>Melissa Ariza</title>
+</head>
+
+<body>
+    <!--Menú-->
+    <header class="cabecera" >
+        <nav class="navegacion">
+            <ul class="navegacion__lista animar">
+                <li>
+                    <div class="cabecera__logo__titulo">
+                        <img class="cabecera__logo" src="assets/vector.png" alt="Logo">
+                        <h1 class="cabecera__titulo" >Melissa Ariza</h1>
+                    </div>
+                </li>
+                <li class="navegacion__elemento"><a href="#proyectos" data-i18n="proyectos_titulo">Proyectos</a></li>
+                <li class="navegacion__elemento"><a href="#sobre-mi" data-i18n="sobre_mi_titulo">Sobre mí</a></li>
+                <li class="navegacion__elemento"><a href="#contacto" data-i18n="contacto_titulo">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+        <!--Sección Hero-->
+        <section class="hero" id="hero">
+            <!-- Toggle de idioma -->
+            <div class="lang-toggle">
+                <label class="switch">
+                    <input type="checkbox" id="langToggle">
+                    <span class="slider">
+                        <span class="lang es">ES</span>
+                        <span class="lang en">EN</span>
+                    </span>
+                </label>
+            </div>
+            <div class="hero__contenedor animar">
+                <h2 class="hero__titulo" data-i18n="title">Hola, soy Mel 👋</h2>
+                <p class="hero__subtitulo" data-i18n="description">Desarrolladora Frontend y creadora de sitios WordPress, enfocada en crear sitios web modernos, accesibles y optimizados para negocios y marcas personales.</p>
+                <ul class="redes">
+                    <li class="redes__links"><a href="https://github.com/Mel0w0" target="_blank" rel="noopener noreferrer">Github<img class="redes__img" src="assets/github.jpg" alt="Logo Github"></a></li>
+                    <li class="redes__links"><a href="https://www.linkedin.com/in/melissaarizaq/" target="_blank" rel="noopener noreferrer">Linkedin<img class="redes__img" src="assets/linkedin.jpg" alt="Logo Linkedin"></a></li>
+                </ul>
+                <a class="hero__ancla" href="#proyectos" data-i18n="proyects">Ver proyectos</a>
+                <a class="hero__boton" id="cvButton" href="/public/CV-Melissa-Ariza-ES.pdf" target="_blank" rel="noopener noreferrer" data-i18n="cv">Ver CV</a>
+            </div>
+        </section>
+
+        <!--Sección Sobre mi-->
+        <section class="sobre-mi" id="sobre-mi"> 
+            <h2 class="sobre-mi__titulo animar" data-i18n="sobre_mi_titulo">Sobre mí</h2>
+            <div class="sobre-mi__texto">
+                <p class="animar" data-i18n="sobre_mi_texto_uno">
+                    Soy desarrolladora Frontend con experiencia en la creación de sitios web modernos, funcionales y responsivos. Trabajo principalmente con HTML, CSS, JavaScript y WordPress, enfocándome en interfaces limpias y fáciles de usar.
+                </p>
+                <p class="animar" data-i18n="sobre_mi_texto_dos">
+                    Me gusta transformar ideas en experiencias digitales que no solo se vean bien, sino que también sean eficientes y accesibles. Disfruto aprender nuevas tecnologías y mejorar continuamente mis habilidades para ofrecer soluciones de calidad.
+                </p>
+                <p class="animar" data-i18n="sobre_mi_texto_tres">
+                    Actualmente busco oportunidades para seguir creciendo profesionalmente y participar en proyectos donde pueda aportar mis conocimientos y creatividad.
+                </p>
+                <img class="sobre-mi__texto__firma animar" src="assets/signature.png" alt="Firma">
+            </div>
+        </section>
+
+        <!--Sección Habilidades-->
+        <section class="habilidades" id="habilidades">
+            <h2 class="habilidades__titulo animar" data-i18n="habilidades">Habilidades</h2>
+            <ul class="habilidades__lista">
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/html.png" alt="HTML">
+                    <p class="habilidades__nombre">HTML 5</p>
+                </li>
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/css_icon.png" alt="CSS">
+                    <p class="habilidades__nombre">CSS</p>
+                </li>
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/js_icon.png" alt="JavaScript">
+                    <p class="habilidades__nombre">JavaScript</p>
+                </li>
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/WordPress.png" alt="">
+                    <p class="habilidades__nombre">WordPress</p>
+                </li>
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/Elementor.png" alt="">
+                    <p class="habilidades__nombre">Elementor</p>
+                </li>
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/photoshop.png" alt="Photoshop">
+                    <p class="habilidades__nombre">Photoshop</p>
+                </li>
+            </ul>
+        </section>
+
+        <!--Contenedor Proyectos & Contacto-->
+        <section class="main-wrapper">
+
+            <!--Sección Proyectos-->
+            <section class="proyectos" id="proyectos">
+                <h2 class="proyectos__titulo animar" data-i18n="proyectos_titulo">Proyectos</h2>
+                <div class="proyectos__frontend__wordpress">
+                    <div class="proyectos__frontend">
+                        <h3 class="proyectos__subtitulo animar">Front-end</h3>
+                        <ul class="proyectos__lista">
+                            <li class="proyectos__contenedor">
+                                <div class="proyectos__img_wrapper">
+                                    <img class="proyectos__imagen" src="assets/matrixcrypt.JPG" alt="Proyecto encriptador">
+                                    <div class="proyectos__overlay">
+                                        <p class="proyectos__img_texto">HTML | CSS | JavaScript</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="proyectos__nombre" data-i18n="encriptador_texto">Encriptador de texto</h4>
+                                    <p class="proyectos__descripcion" data-i18n="encriptador_descripcion">Challenge codificar de texto para Alura Latam, hecho desde cero.</p>
+                                    <div class="proyectos__enlaces">
+                                        <a href="https://github.com/Mel0w0/Matrixcrypt" class="proyectos__repositorio" data-i18n="repositorio">Repositorio</a>
+                                        <a href="https://matrixcrypt.vercel.app/" class="proyectos__demo" data-i18n="demo">Ver demo</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="proyectos__contenedor">
+                                <div class="proyectos__img_wrapper">
+                                    <img class="proyectos__imagen" src="assets/caprice.JPG" alt="Proyecto Caprice">
+                                    <div class="proyectos__overlay">
+                                        <p class="proyectos__img_texto">JavaScript | Tailwind | React | Vite</p>
+                                    </div>
+                                </div>                                
+
+                                <div>
+                                    <h4 class="proyectos__nombre" data-i18n="caprice">Catalogo Caprice</h4>
+                                    <p class="proyectos__descripcion" data-i18n="caprice_descripcion">Proyecto personal tipo catalogo/ecommerce de una panaderia de venta al por mayor, hecho desde cero.</p>
+                                    <div class="proyectos__enlaces">
+                                        <a href="https://github.com/capricebakery/Caprice/tree/main" class="proyectos__repositorio" data-i18n="repositorio">Repositorio</a>
+                                        <a href="https://caprice-kappa.vercel.app/" class="proyectos__demo" data-i18n="demo">Ver demo</a>
+                                    </div>
+                                </div>
+                            </li>                    
+                        </ul>
+                    </div>
+                    <div class="proyectos__wordpress">
+                        <h3 class="proyectos__subtitulo animar">WordPress</h3>
+                        <ul class="proyectos__lista">
+                            <li class="proyectos__contenedor">
+                                <div class="proyectos__img_wrapper">
+                                    <img class="proyectos__imagen" src="assets/Almadelbosque.JPG" alt="Pagina Natural">
+                                    <div class="proyectos__overlay">
+                                        <p class="proyectos__img_texto">Elementor | Astra | Woocomerce</p>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h4 class="proyectos__nombre" data-i18n="bosque">Alma del bosque</h4>
+                                    <p class="proyectos__descripcion" data-i18n="bosque_descripcion">Proyecto personal de un negocio de cosmeticos naturales, con blog y tienda virtual, construida con Elementor, Woocomerce, WPForms más plugins de optimizacion y seguridad.</p>
+                                    <div class="proyectos__enlaces">
+                                        <a href="http://almadelbosque.infinityfreeapp.com/" class="proyectos__demo" data-i18n="demo">Ver demo</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="proyectos__contenedor">
+                                <div class="proyectos__img_wrapper">
+                                    <img class="proyectos__imagen" src="assets/luminexnova.JPG" alt="Pagina Corporativa">
+                                    <div class="proyectos__overlay">
+                                        <p class="proyectos__img_texto">Elementor | Kadence | WPForms</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="proyectos__nombre">Luminex Nova</h4>
+                                    <p class="proyectos__descripcion" data-i18n="luminex_descripcion">Proyecto personal de una página Corporativa de tecnología, con blog, secciones servicios, sobre nosotros, construida con Elementor, Woocomerce, WPForms más plugins de optimizacion y seguridad.</p>
+                                    <div class="proyectos__enlaces">
+                                        <a href="http://luminex-nova.infinityfree.me" class="proyectos__demo" data-i18n="demo">Ver demo</a>
+                                    </div>
+                                </div>
+                            </li>                    
+                        </ul>
+                    </div>  
+                </div>
+            </section>
+
+            <!--Sección Contacto-->
+            <section class="contacto" id="contacto">
+                <ul class="contacto__espacio">
+                    <h2 class="contacto__espacio__titulo animar" data-i18n="contactame">Contactame</h2>
+                    <p class="contacto__espacio__texto" data-i18n="contactame_texto">
+                    ¿Quieres contactarme?
+                    Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.
+                    </p>
+                    <form class="contacto__espacio__formulario" action="https://formspree.io/f/xeoyplvq" method="POST">
+                        <label class="contacto__campo">
+                            <span data-i18n="nombre">Nombre:</span>
+                            <input class="contacto__campo__recuadro" type="email" name="email">
+                        </label>
+                        <label class="contacto__campo">
+                            Email:
+                            <input class="contacto__campo__recuadro" type="email" name="email">
+                        </label>
+                        <label class="contacto__campo">
+                            <span data-i18n="mensaje">Mensaje:</span>
+                            <textarea class="contacto__campo contacto__campo--textarea" name="message"></textarea>
+                        </label>
+                        <button class="contacto__boton" type="submit" data-i18n="enviar">Enviar</button>
+                    </form>
+                </ul>
+            </section>
+        </section>
+        <script src="lang.js"></script>
+
+    <footer class="footer">© Mel – 2025</footer>
+
+</body>
+</html>
