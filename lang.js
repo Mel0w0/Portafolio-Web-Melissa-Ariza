@@ -90,10 +90,10 @@ function setLanguage(lang) {
   const cvButton = document.getElementById("cvButton");
 
   if (lang === "en") {
-    cvButton.href = "/public/CV-Melissa-Ariza-EN.pdf";
+    cvButton.href = "/assets/CV-Melissa-Ariza-EN.pdf";
     cvButton.textContent = "View CV";
   } else {
-    cvButton.href = "/public/CV-Melissa-Ariza-ES.pdf";
+    cvButton.href = "/assets/CV-Melissa-Ariza-ES.pdf";
     cvButton.textContent = "Ver CV";
   }
 }
@@ -107,3 +107,4 @@ toggle.addEventListener("change", () => {
   const lang = toggle.checked ? "en" : "es";
   setLanguage(lang);
 });
+
