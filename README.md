@@ -6,12 +6,12 @@ El sitio está desarrollado utilizando **HTML, CSS y JavaScript**, e incluye un 
 ---
 
 ## 🚀 Demo
-🔗 [Ver portafolio en vivo](https://tu-link-aqui.com)
+🔗 [Ver portafolio en vivo](https://portafolio-web-melissa-ariza.vercel.app/)
 
 ---
 
 ## 📸 Vista previa
-![Preview del portafolio](ruta/a/imagen.png)
+![Preview del portafolio](/assets/PortafolioWebMel.gif)
 
 ---
 
@@ -54,3 +54,4 @@ El portafolio cuenta con un botón para visualizar el CV:
 - 🇺🇸 **Inglés**
 
 El archivo mostrado cambia automáticamente según el idioma seleccionado en el sitio.
+
